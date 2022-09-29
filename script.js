@@ -1,5 +1,6 @@
 let playerScore = 0;
 let computerScore = 0;
+game();
 
 function getComputerChoice() {
     let randomChoice = Math.floor(Math.random() * 3) + 1;
